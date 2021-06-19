@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+        font-family: poppins, sans-serif;
+}
+
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+
+.hero-image{
+    width: 80%;
+}
+.biography-image{
+    width: 70%;
+}
+
+section{
+    height: 900px;
+    padding-bottom: 150px;
+}
+.hero-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+
+    
+}
+
+h2{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 30px;
+}
+.hero-section .half-width h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 30px;
+    color: salmon;
+}
+
+p{
+    color: dimgray;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-left{
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+
+
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(45deg,salmon, tomato) ;
+    margin-top: 50px;
+    transition: all .7s;
+}
+
+.link-button:hover{
+   
+    background-image: linear-gradient(45deg,tomato, salmon) ;
+
+}
+
+.hero-right{
+    position: relative;
+    top: 15%;
+}
+
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.biography-right{
+    position: relative;
+    top: 40%;
+    right: 5%;
+}
+.biography-left{
+    position: relative;
+    top: 20%;
+    left: 8%;
+}
+
+.third-width{
+    width: 20%;
+    padding-left: 3%;
+}
+
+.third-width img{
+    width: 100%;
+   
+}
+.work-container{
+    display: flex;
+    justify-content: center;
+}
+
+.latest-work{
+    height: 500px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat:no-repeat;
+
+}
+
+.header-title{
+    text-align: center;
+    font-weight: 500; 
+    padding: 80px 0px;
+}
+
+.feedback{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
+.feedback h4{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height:20px;
+
+
+}
+
+.feedback h5{
+    text-align: center;
+    font-size:18px;
+    color: dimgray;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.feedback .quote{
+    text-align: center;
+    font-size:25px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+
+.feedback .box{
+    padding : 50px 250px;
+    background-image: linear-gradient(45deg,salmon, tomato);
+    width: 30%;
+    border-radius: 20px;
+    position: relative;
+    left: 22%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.feedback .box p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.feedback .box h3{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+}
